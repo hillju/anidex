@@ -1,12 +1,15 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --sidebar-width: 240px;
+  --divider-color: #e0e0e0;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --divider-color: #2a2a2a;
   }
 }
 
